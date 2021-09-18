@@ -8,9 +8,10 @@ header, nav, main, footer {
     max-width: 760px;
 }
 header,footer {
-    background-color: navy;
+    background-color: #AFD275;
     color: white;
     text-align: center;
+    border-radius: 6px;
 }
 header {
     padding: 1.5rem;
@@ -19,8 +20,18 @@ img {
     float: right;
     margin: 10px;
     border: 1px solid black;
+    width: 200px;
+    height: auto;
+    border-radius: 6px;
+    box-shadow: 0 0 20px black;
 }
 
 footer{
     padding: .1rem;
+}
+footer p {
+    color: #7E685A;
+}
+h2 {
+border-bottom: 2px solid black;
 }

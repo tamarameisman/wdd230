@@ -40,8 +40,9 @@ main {
     padding: 1rem 2%;
     display: block;
 }
-main h1 { color:#AFD275;
-    text-shadow: 5px 5px 4px #111;
+main h1 { color:#444;
+    text-shadow: 5px 5px 4px #888;
+    
 }
 
 main figure img {width: 100%}

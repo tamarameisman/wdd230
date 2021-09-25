@@ -17,7 +17,6 @@ header {
     padding: 1.5rem;
 }
 img {
-    float: right;
     margin: 10px;
     border: 1px solid black;
     width: 200px;
@@ -29,7 +28,10 @@ img {
 footer{
     padding: .1rem;
 }
-
+h1 {
+    font-family: 'Roboto', sans-serif;
+}
 h2 {
 border-bottom: 2px solid black;
+font-family: 'Abel', sans-serif;
 }

@@ -13,9 +13,11 @@ header {
 }
 header h1 {
     margin: 0;
+    text-shadow: 2px 2px #888;
 }
 header h2 {
     margin: 0;
+    text-shadow: 2px 2px #888;
 }
 
 /* nav gation rules here */
@@ -38,7 +40,9 @@ main {
     padding: 1rem 2%;
     display: block;
 }
-main h1 { color:#AFD275}
+main h1 { color:#AFD275;
+    text-shadow: 2px 2px #444;
+}
 
 main figure img {width: 100%}
 main figure {

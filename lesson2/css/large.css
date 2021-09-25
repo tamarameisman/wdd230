@@ -1,0 +1,16 @@
+@media only screen and (min-width:1028px){
+  
+    
+    main {
+        max-width: 75rem; margin: auto;
+        grid-template-columns: fr1, fr1, fr1;
+    }
+    
+    img {width: 31%} 
+    
+    div {
+    column-count: 3;
+    }
+    
+    }
+     /* end of media querie

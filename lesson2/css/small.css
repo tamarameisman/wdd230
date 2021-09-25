@@ -1,0 +1,47 @@
+html { -webkit-text-size-adjust: 100%;}
+
+/* body rules here */
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+/* header rules here */
+header {
+    background-color: #AFD275;
+    padding: 1rem 2%;
+}
+header h1 {
+    margin: 0;
+}
+header h2 {
+    margin: 0;
+}
+div h2 {
+    background-color: #AFD275;
+    padding: 1rem 2%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+
+}
+
+/* main rules here */
+main {
+    padding: 1rem 2%;
+    display: grid;
+    grid-template-columns: 1fr;
+    font-size: 0.8rem;
+}
+
+main h1 { color:#AFD275}
+
+img {
+    width: 100%;
+    margin: 0;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 2%;
+    background-color: #AFD275;
+}

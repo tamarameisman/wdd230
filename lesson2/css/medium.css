@@ -7,13 +7,17 @@
         padding-bottom: .5rem;
     }*/
     main{
-        grid-template-columns: fr1, fr1;
+        grid-template-columns: 1fr 1fr;
+       
     }
+    main section:nth-child(2) {
+		display: block;
+	}
 
-    div {
-        clear: both;
-        column-count: 2;
-        column-rule: 1px solid #ddd;
-    
+	main section:nth-child(3) {
+		grid-column: span 2;
+	}
+    section {
+        margin-right: 10px;
     }
     } /* end of media querie

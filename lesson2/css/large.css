@@ -2,15 +2,13 @@
   
     
     main {
-        max-width: 75rem; margin: auto;
-        grid-template-columns: fr1, fr1, fr1;
+        /*max-width: 75rem; margin: auto;*/
+        grid-template-columns: 1fr 1fr 1fr;
     }
     
-    img {width: 31%} 
+    main section:nth-child(3) {
+		grid-column: span 1;
+	}
     
-    div {
-    column-count: 3;
-    }
-    
-    }
+ }
      /* end of media querie

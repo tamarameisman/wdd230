@@ -1,0 +1,82 @@
+html { -webkit-text-size-adjust: 100%;
+    line-height: 1.15;}
+
+
+header {
+    background-color: #AFD275;
+    padding: 1rem 2%;
+}
+header h1 {
+    margin: 0;
+    text-shadow: 2px 2px 4px #888;
+}
+header h2 {
+    margin: 0;
+    text-shadow: 2px 2px 4px #888;
+}
+
+/* nav gation rules here */
+nav {background-color: #111;}
+
+nav li.active {background-color: #333;}
+
+nav a {
+    display: block;
+    padding: .8rem 0; /* 44 min height */
+    color: #eee;
+    text-align: center;
+    text-decoration: none;
+}
+nav a:hover {background-color: #444;}
+
+
+body {
+    font-size: 18px;
+    line-height: 1.5;
+    max-width: 950px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 0.95rem;
+}
+
+img.logo {
+    width: 300px;
+    margin: 0;
+}
+img{
+    width: 100%;
+    margin: 0;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+}
+h2 {
+    font-family: 'Abel', sans-serif;
+}
+h3 {
+    font-family: 'Abel', sans-serif;
+}
+
+p {
+    font-family: 'Abel', sans-serif;
+    text-align: left;
+    margin: 0 auto;
+    padding: 5px;
+}
+li {
+	display: block;
+	text-align: center;
+	text-decoration: none;
+    font-size: 0.95rem;
+    list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+ul .scenarios {
+text-align: justify;
+}
+ul {
+    padding: 0px;
+}

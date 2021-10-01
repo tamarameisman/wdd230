@@ -1,0 +1,17 @@
+@media only screen and (min-width:1028px){
+
+h1 { font-size: 1.5rem;}
+
+
+    
+nav ul {
+    grid-template-columns: repeat(5, 1fr);
+    display: flex;
+    margin: 0; 
+    padding: 0;}
+    
+    nav ul li {
+        flex: 1 1 100%;
+        list-style-type: none;
+
+}/*end of media queries*/

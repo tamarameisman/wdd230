@@ -74,9 +74,26 @@ li {
 	padding: 0;
 	overflow: hidden;
 }
-ul .scenarios {
-text-align: justify;
+
+.scenarios {
+text-align: left;
 }
+
+ul.color1{
+    background-color: #AFD275;
+}
+ul.color2{
+    background-color: black;
+    color: white;
+}
+/*ul.color2:hover{
+    background-color: #444;}*/
+
 ul {
     padding: 0px;
+}
+footer {
+    text-align: center;
+    padding: 1rem 2%;
+    background-color: #AFD275;
 }

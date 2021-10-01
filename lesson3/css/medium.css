@@ -1,7 +1,15 @@
 @media only screen and (min-width:1028px){
 
-h1 { font-size: 1.5rem;}
+h1 { font-size: 3rem;}
+h2 { font-size: 3rem;}
+h3 { font-size: 3rem;}
+p { font-size: 1.5rem;}
+a { font-size: 1.5rem;}
+li {font-size: 1.5rem;}
 
+body {
+    max-width: 100%;
+}
 
     
 nav ul {
@@ -13,5 +21,7 @@ nav ul {
     nav ul li {
         flex: 1 1 100%;
         list-style-type: none;
+        font-size: 1.5rem;
+    }
 
 }/*end of media queries*/

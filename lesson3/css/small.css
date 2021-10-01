@@ -86,8 +86,8 @@ ul.color2{
     background-color: black;
     color: white;
 }
-/*ul.color2:hover{
-    background-color: #444;}*/
+ul.color2:hover{
+    background-color: #444;}
 
 ul {
     padding: 0px;

@@ -4,11 +4,16 @@
     
     
     header, nav, main, footer {
-        max-width: 1024;
+        max-width: 1024px;
         margin: 0 auto;
     }
     
-main, footer{
+main {
+    max-width: 70rem;
+    align-content: center;
+}
+
+footer {
     max-width: 70rem;
     align-content: center;
 }

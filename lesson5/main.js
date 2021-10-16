@@ -30,30 +30,4 @@ button.addEventListener("click", function() {
 
 
 
-
- //document.getElementById("mybtn").addEventListener("click", function() {
-     //let input = document.getElementById("favchap").value;
-    
-    //console.log(input);
-    //if(input !== ""){
-        //const newButton = document.createElement("button");
-        //newButton.innerHTML ="\u274C";
-
-        //const newList = document.createElement("li");
-        //newList.textContent =input;
-        //newList.appendChild(newButton);
-
-    //document.getElementById("list").appendChild(newList);
-    
-    //document.getElementById("favchap").value = ""
-    //end of the if
-    //document.getElementById("button").addEventListener("click", delete){
-
-    //}
-
-    //}
-    
- //}); 
-
-
  

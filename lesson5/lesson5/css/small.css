@@ -136,12 +136,14 @@ nav ul.hide {display:none;;}
   .theChild li {
     list-style-type: none;
     margin-left: -35px;
+    padding: 2px;
   }
   .history img {
     max-width: 100%;
   }
   .prestonmap {
       width: 100%;
+      margin-top: -15px;
   }
   .us li {
     list-style-type: none;

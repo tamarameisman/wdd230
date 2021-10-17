@@ -59,6 +59,37 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#888888', end
         margin: 5px;
         max-width: 400px;
         padding: 7px;
+    }
+    .us {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-row: 1fr;
+        
+        
+    }
+    .us ul {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        
+
+    }
+    
+    .address {
+        grid-column: 1;
+    }
+    .phone, .email {
+        grid-column: 2;
+        grid-row: 1;
+        margin-left: -15px;
+        
+    }
+    .email {
+        margin-top: 55px;
+    }
+    .prestonmap {
+        grid-column: 2;
+        
+        padding: 10px;
         
     } /*end medium */
     

@@ -63,8 +63,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#888888', end
     .us {
         display: grid;
         grid-template-columns: 50% 50%;
-        grid-row: 1fr;
-        
         
     }
     .us ul {
@@ -76,11 +74,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#888888', end
     
     .address {
         grid-column: 1;
+        margin-left: -35px;
+
     }
     .phone, .email {
         grid-column: 2;
         grid-row: 1;
-        margin-left: -15px;
+        margin-left: -45px;
         
     }
     .email {
@@ -88,7 +88,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#888888', end
     }
     .prestonmap {
         grid-column: 2;
-        
         padding: 10px;
         
     } /*end medium */

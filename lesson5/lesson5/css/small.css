@@ -78,7 +78,7 @@ nav ul li.active a {background-color: rgba(0,0,0,0.2);}
 nav ul li a:hover {background-color: rgba(0,0,0,0.4);
 }
 
-nav ul.hide {display:none;;}
+nav ul.hide {display:none;}
 
 
 .clearfix:after {
@@ -89,6 +89,10 @@ nav ul.hide {display:none;;}
 
   main {
     padding: 1rem 2%;
+  }
+
+  .forecasthead {
+      display: none;
   }
 
   main img{
@@ -126,7 +130,7 @@ nav ul.hide {display:none;;}
   .theParent img {width:100%; height:auto;}
 
   .theChild {
-    position: absolute;
+    
     background-color: #AFD275;
     opacity: 0.8;
     top:10px;

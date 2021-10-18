@@ -29,6 +29,24 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#888888', end
         padding: .8rem 1rem;
     }
 
+    .theChild {
+        position: absolute;
+        background-color: #AFD275;
+        opacity: 0.8;
+        top:10px;
+        left: 10px;
+        padding: 0 2%;
+      }
+      .theChild li {
+        list-style-type: none;
+        margin-left: -35px;
+        padding: 2px;
+      }
+
+      .forecasthead {
+        display: grid;
+    }
+
     section.forecast {
       display: grid;
       grid-template-columns: 1fr 1fr 1fr 1fr 1fr;

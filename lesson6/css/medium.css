@@ -9,6 +9,14 @@ background: linear-gradient(to bottom,  #888888 0%,#4c4c4c 100%); /* W3C, IE10+,
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#888888', endColorstr='#4c4c4c',GradientType=0 ); /* IE6-9 */
 
     }
+
+    header h1 {
+        font-size: 40px;
+    }
+    header h2 {
+        font-size: 30px;
+    }
+    
     nav button {
         display: none;
     }

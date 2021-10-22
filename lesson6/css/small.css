@@ -25,10 +25,12 @@ header {
 header h1 {
     margin: 0;
     text-shadow: 2px 2px 4px #888;
+    font-size: 28px;
 }
 header h2 {
     margin: 0;
     text-shadow: 2px 2px 4px #888;
+    font-size: 17px;
 }
 
 header h1 {padding-top: 10px;}

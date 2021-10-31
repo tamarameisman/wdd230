@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Web site plan for Tamara Meisman in WDD230: Web Frontend Devlopment at BYUI">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="shortcut icon" href="favicon.ico">
+    
+    
+    <title>Community Now: Gallery</title>
+</head>
+<body>
+    <header class="clearfix">
+        <div class="navWrapper">
+            <img class="logo" src="images/community_now_logo.png" alt="Community Now Logo">
+            <h1>Community Now</h1>
+            <h2>Turning information into insight</h2>
+        </div>
+    </header>
+    <nav class="clearfix">
+        <div class="navWrapper">
+            <button onclick="toggleMenu()">&#9776;</button>
+            <ul id="primaryNav" class="hide">
+                <li><a href="#">Home</a></li>
+                <li class=><a href="preston.html">Preston</a></li>
+                <li><a href="sodasprings.html">Soda Springs</a></li>
+                <li><a href="fishhaven.html">Fish Haven</a></li>  
+                <li class="active"><a href="gallery.html">Gallery</a></li>
+ 
+                <li><a href="#">Storm Center</a></li>
+                 
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <h1>Weather Gallery</h1>
+        
+
+        <section class="weather">
+            <picture class="gallery"">
+                <img class="one" src='images/placeholder.jpg' data-src='images/rainbow.jpg' alt='Double Rainbow'>
+                <p class="one">A double rainbow blesses the Preston sky.</p>
+            </picture>
+
+
+            <picture class="gallery">
+                <img class="two" src='images/placeholder.jpg' data-src='images/snow.jpg' alt='Snowfilled Trees'>
+                <p class="two">Snowfilled trees in Fishhaven.</p>
+            </picture>
+
+            <picture class="gallery">
+                <img class="three" src='images/placeholder.jpg' data-src='images/sunny2.jpg' alt='Sunny Day'>
+                <p class="three">Bright beautiful day in Soda Springs.</p>
+            </picture>
+
+            <picture class="gallery">
+                <img class="four" src='images/placeholder.jpg' data-src='images/tornato.jpg' alt='Tornato'>
+                <p class="four">Tornato terrorizes counrtyside in Fishhaven.</p>
+            </picture>
+
+            <picture class="gallery">
+                <img class="five" src='images/placeholder.jpg' data-src='images/foggy.jpg' alt='Foggy'>
+                <p class="five">Clouds roll into Preston..</p>
+            </picture class="gallery">
+
+            <picture class="gallery">
+                <img class="six" src='images/placeholder.jpg' data-src='images/cloudy.jpg' alt='Cloud'>
+                <p class="six">Cloud capped mountains in Soda Springs.</p>
+            </picture>
+
+            <picture class="gallery">
+                <img class="seven" src='images/placeholder.jpg' data-src='images/flooding.jpg' alt='Flooding'>
+                <p class="seven">Flooding in downtown Preston.</p>
+            </picture>
+            <picture class="gallery">
+                <img class="eight" src='images/placeholder.jpg' data-src='images/partly_cloudy.jpg' alt='Partly Cloud'>
+                <p class="eight">Partly Cloudy in Soda Springs.</p>
+            </picture>
+
+            <picture class="gallery">
+                <img class="nine" src='images/placeholder.jpg' data-src='images/lightening.jpg' alt='Lightening'>
+                <p class="nine">Spectaculer lightening over Preston.</p>
+            </picture>
+            
+        </section>
+    
+    </main>    
+    
+    <footer>
+        <p>&copy;Community Now &bull; Tamara Meisman &bull; <span id="copyrightyear"></span></p>
+    </footer>
+    <script src="js/main.js"></script> 
+    <script src="js/lazyload.js"></script> 
+
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+        WebFont.load({
+            google: {
+              families: [
+                 'Abel' , 'Roboto'
+              ]
+            }
+          });
+    </script>
+    <script src="js/windchill.js"></script> 
+
+</body>
+
+</html>

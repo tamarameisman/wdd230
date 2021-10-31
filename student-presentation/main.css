@@ -1,11 +1,23 @@
 .example-one {
+    border-radius: 40px;
+    padding: 10px;
+    text-align: center;
     background-color: firebrick
-    
 }
 .example-two {
+    border-radius: 0 20px;
     background-color: darkblue;
-
+    padding: 10px;
+    text-align: center;
 }
 .example-three {
+    border-radius: 100%;
+    padding: 10px;
     background-color: darkgreen;
+    text-align: center;
+    width: 500px;
+    height: 500px;
+
+}
+
 }

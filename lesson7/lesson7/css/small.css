@@ -1,0 +1,167 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+html {line-height: 1.15;}
+h1 {
+    font-family: 'Roboto', sans-serif;
+}
+
+h2, h3, li, p {
+    font-family: 'Abel', sans-serif;
+}
+
+p {
+    margin: 0 auto;
+    padding: 5px;
+}
+
+header {
+    background-color: #AFD275;
+    padding: 1rem 2%;
+}
+header h1 {
+    margin: 0;
+    text-shadow: 2px 2px 4px #888;
+    font-size: 28px;
+}
+header h2 {
+    margin: 0;
+    text-shadow: 2px 2px 4px #888;
+    font-size: 17px;
+}
+
+header h1 {padding-top: 10px;}
+
+img.logo {
+    float: left;
+    width: 100px;
+    margin: 0;
+}
+
+
+
+nav button {
+    margin: .2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: #fff;
+}
+
+nav{
+    background-color: #777;
+    font-family: sans-serif;
+
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    display: block;
+    padding: .8rem 2%;
+    text-decoration: none;
+    color: rgba( 255,255,255,0.8);
+    border-top: 1px solid rgba(0,0,0,0.3);
+}
+
+
+nav ul li.active a {background-color: rgba(0,0,0,0.2);}
+    
+nav ul li a:hover {background-color: rgba(0,0,0,0.4);
+}
+
+nav ul.hide {display:none;}
+
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  main {
+    padding: 1rem 2%;
+  }
+
+  .forecasthead {
+      display: none;
+  }
+
+  main img{
+    width: 100%;
+    height: auto;
+  }
+
+  main img {
+      margin: 0;
+      width: 100%;
+  }
+  div#message{
+    background-color: yellow;
+    padding: 1rem;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+  }
+
+  .gallery {
+    padding: 10px;
+  }
+
+  div.showme {display: block;}
+  div.hideme {display: none;}
+  
+  
+  section {
+      background-color: #eee;
+      color: black;
+  }
+
+  section.forecast{display: none}
+  
+  .theParent{
+    position: relative;
+  }
+  .theParent img {width:100%; height:auto;}
+
+  .theChild {
+    
+    background-color: #AFD275;
+    opacity: 0.8;
+    top:10px;
+    left: 10px;
+    padding: 0 2%;
+  }
+  .theChild li {
+    list-style-type: none;
+    margin-left: -35px;
+    padding: 2px;
+  }
+  .history img {
+    max-width: 100%;
+  }
+  .prestonmap {
+      width: 100%;
+      margin-top: -15px;
+  }
+  .us li {
+    list-style-type: none;
+
+  }
+  footer {
+    text-align: center;
+    padding: 1rem 2%;
+    background-color: #AFD275;
+}
+
+
+
+
+

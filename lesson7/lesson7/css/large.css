@@ -28,8 +28,36 @@ nav h2 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 10px;
+}
+.one:hover {
     box-shadow: 0 0 50px #333;
 }
+.two:hover {
+    box-shadow: 0 0 50px #333;
+}
+.three:hover {
+    box-shadow: 0 0 50px #333;
+}
+.four:hover {
+    box-shadow: 0 0 50px #333;
+}
+.five:hover {
+    box-shadow: 0 0 50px #333;
+}
+.six:hover {
+    box-shadow: 0 0 50px #333;
+}
+.seven:hover {
+    box-shadow: 0 0 50px #333;
+}
+.eight:hover {
+    box-shadow: 0 0 50px #333;
+}
+.nine:hover {
+    box-shadow: 0 0 50px #333;
+}
+
+
 
 main {
     max-width: 70rem;

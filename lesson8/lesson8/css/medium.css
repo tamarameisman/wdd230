@@ -1,0 +1,168 @@
+/* 35em is also 560px when basefont is 16px */
+@media only screen and (min-width: 40rem) {
+    nav {
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#888888+0,4c4c4c+100 */
+background: #888888; /* Old browsers */
+background: -moz-linear-gradient(top,  #888888 0%, #4c4c4c 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #888888 0%,#4c4c4c 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #888888 0%,#4c4c4c 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#888888', endColorstr='#4c4c4c',GradientType=0 ); /* IE6-9 */
+
+    }
+
+    header h1 {
+        font-size: 40px;
+    }
+    header h2 {
+        font-size: 30px;
+    }
+    
+    nav button {
+        display: none;
+    }
+    
+    nav ul.hide {
+        display: block;
+    }
+    
+    nav ul {margin-left: 2%;}
+    
+    nav ul li {
+        float: left;
+    }
+    
+    nav ul li a {
+        border: none;
+        border-right: 1px solid rgba(0,0,0,0.03);
+        padding: .8rem 1rem;
+    }
+
+    .weather {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 10px;
+    }
+
+    .one {
+        grid-column: 1;
+    }
+    .two {
+        grid-column: 1;
+       
+    }
+    .three {
+        grid-column: 1;
+       
+    }
+    .four {
+        grid-column: 1;
+       
+    }
+    .five {
+        grid-column: 2;
+       
+    }
+    .six {
+        grid-column: 2;
+       
+    }
+    .seven {
+        grid-column: 2;
+       
+    }
+    .eight {
+        grid-column: 2;
+       
+    }
+    .nine {
+        grid-column: 2;
+       
+    }
+
+    .theChild {
+        position: absolute;
+        background-color: #AFD275;
+        opacity: 0.8;
+        top:10px;
+        left: 10px;
+        padding: 0 2%;
+      }
+      .theChild li {
+        list-style-type: none;
+        margin-left: -35px;
+        padding: 2px;
+      }
+
+      .forecasthead {
+        display: grid;
+    }
+
+    section.forecast {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+    section.forecast div {
+        text-align: center;
+        border: 1px solid #fff;
+    }
+    .forecast h4 {
+        background-color: #aaa;
+        padding: 1.5rem;
+        margin-top: -1px;
+    }
+
+    section .forecast div h4{
+        background-color: #eee;
+        margin: 0;
+        padding: 1rem 0;
+    }
+
+    
+    .history p {
+        text-align: justify;
+        flex-wrap: wrap;
+    }
+    .history img {
+        float:right;
+        margin: 5px;
+        max-width: 400px;
+        padding: 7px;
+    }
+    .us {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        
+    }
+    .us ul {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        
+
+    }
+    
+    .address {
+        grid-column: 1;
+        margin-left: -35px;
+
+    }
+    .phone, .email {
+        grid-column: 2;
+        grid-row: 1;
+        margin-left: -45px;
+        
+    }
+    .email {
+        margin-top: 55px;
+    }
+    .prestonmap {
+        grid-column: 2;
+        padding: 30px;
+        
+} 
+.comments {
+    width: 100px;
+  }
+
+
+/*end medium */
+}

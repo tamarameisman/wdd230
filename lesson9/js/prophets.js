@@ -30,23 +30,39 @@ fetch(requestURL)
         document.querySelector('div.cards').appendChild(card);
     }
 
-    if('IntersectionObserver' in window) {
-      const observer = new IntersectionObserver((items, observer) => {
+    const imagesToLoad = document.querySelectorAll('img[data-src]');
+
+const loadImages = (image) => {
+    image.setAttribute('src', image.getAttribute('data-src'));
+    image.onload = () => {
+        image.removeAttribute('data-src');
+    };
+};
+
+const imgOptions = {
+    threshold: 1
+};
+//if this is true
+if ('IntersectionObserver' in window) {
+    // is supported so let's go!!!
+    const imgObserver = new IntersectionObserver((items) => {
         items.forEach((item) => {
-          if(item.isIntersecting) {
-            loadImages(item.target);
-            observer.unobserve(item.target);
-          }
+            if (item.isIntersecting) {
+                loadImages(item.target);
+                imgObserver.unobserve(item.target);
+            }
         });
-      });
-      imagesToLoad.forEach((img) => {
-        observer.observe(img);
-      });
-    } else {
-      imagesToLoad.forEach((img) => {
+    }, imgOptions);
+
+    // load image if necessary
+    imagesToLoad.forEach((img) => {
+        imgObserver.observe(img);
+    });
+} else { //just load all images if not supported
+    imagesToLoad.forEach( (img) => {
         loadImages(img);
-      });
-    }
+    });
+}
   }); // temporary checking for valid response and data parsing
 
 

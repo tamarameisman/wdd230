@@ -32,13 +32,13 @@ div.cards section {
 h1 {
     font-family: 'Roboto', sans-serif;
     color: black;
-    text-shadow: 0px 2px 1px rgba(255,255,255,0.5);
+    text-shadow: 0px 3px 5px #aaa;
     padding: 30px;
 }
 
 h2 {
     font-family: 'Abel', sans-serif;
-    color: #152614;
+    color: Black;
 }
 
 p {
@@ -49,14 +49,15 @@ p {
 
 div.cards section img {
     width: 44%;
-    box-shadow: 0 0 10px #ddd;
+    box-shadow: 0 0 20px black;
     margin: 10px;
     transition: 0.2s;
+    border-radius: 5px;
 }
 
 div.cards section img:hover {
     width: 45%;
-    box-shadow: 0 0 10px rgba(0,0,0,1);
+    box-shadow: 0 0 60px rgba(0,0,0,1);
     margin: 10px;
     transition: 0.2s;
 }

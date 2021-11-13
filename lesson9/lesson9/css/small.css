@@ -218,3 +218,43 @@ textarea {
 .usrform {
   width: 100%;
 }
+
+div.cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 15px;
+}
+
+div.cards section {
+  background-color: #AFD275;
+  text-align: center;
+  margin: 5px;
+  width: 400px;
+  border-radius: 5px;
+  box-shadow: 2px 2px #bbb;
+}
+
+div.cards section img {
+  width: 86%;
+  box-shadow: 0 0 20px black;
+  margin: 10px;
+  transition: 0.2s;
+  border-radius: 5px;
+}
+.cards ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  padding-bottom: 1rem;
+}
+
+div.cards section img:hover {
+  width: 87%;
+  box-shadow: 0 0 60px rgba(0,0,0,1);
+  margin: 10px;
+  transition: 0.2s;
+}
+
+h2 .cards{text-align:center;}
+

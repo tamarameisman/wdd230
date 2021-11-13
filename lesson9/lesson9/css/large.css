@@ -82,5 +82,8 @@ footer {
 form label.sbs {
     padding: 0.5rem 0;
 }
-    
+div.cards section {
+    width: 300px;
+}
+
 } /*end large */

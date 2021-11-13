@@ -11,28 +11,40 @@ fetch(requestURL)
       const towns = jsonObject['towns'];
 
       for (let i = 0; i < towns.length; i++ ) {
+        
         let card = document.createElement('section');
+        let data =document.createElement("div")
         let h2 = document.createElement('h2');
         let h3 = document.createElement('h3');
 
         let yearFounded = document.createElement('p');
-        let population = document.createElement('p');
-        let annualRain = document.createElement('p');
-
+        let currentPopulation = document.createElement('p');
+        let averageRainfall = document.createElement('p');
+        let events = document.createElement('p');
+        let eventList = document.createElement('ul')
         let image = document.createElement('img');
 
         h2.textContent = towns[i].name ;
         yearFounded.textContent = "Year Founded: " + towns[i].yearFounded;
-        population.textContent = "Population: " + towns[i].population;
-        annualRain.textContent = "Annual Rain Fall: " + towns[i].annualRain;
+        currentPopulation.textContent = "Population: " + towns[i].currentPopulation;
+        averageRainfall.textContent = "Annual Rain Fall: " + towns[i].averageRainfall;
+        events.textContent = "Events: ";
 
-        image.setAttribute('alt', towns[i].name + " " + towns[i].lastname + " - " + towns[i].order);
-        image.setAttribute("src",towns[i].imageurl)
-        card.appendChild(h2);
-        card.appendChild(yearFounded);
-        card.appendChild(population);
-        card.appendChild(annualRain);
-
+        towns[i].events.forEach(event => {
+            let li = document.createElement("li")
+            li.textContent = event
+            eventList.appendChild(li)
+        });
+        image.setAttribute('alt', towns[i].name + " " + towns[i].motto + " - " + towns[i].order);
+        image.setAttribute("src","images/"+towns[i].photo)
+        data.className="data"
+        data.appendChild(h2);
+        data.appendChild(yearFounded);
+        data.appendChild(currentPopulation);
+        data.appendChild(averageRainfall);
+        data.appendChild(events);
+        data.appendChild(eventList)
+        card.appendChild(data)
         card.appendChild(image);
 
         document.querySelector('div.cards').appendChild(card);

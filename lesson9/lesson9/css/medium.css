@@ -162,6 +162,33 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#888888', end
 .comments {
     width: 100px;
   }
+}
+@media only screen and (min-width: 40rem) and ( max-width: 64rem) {
+
+div.cards {
+    display: grid;
+    width: 100%;
+	grid-template-columns: 1fr;
+}
+
+div.cards section {
+    width: 100%;
+    display: grid;
+    width: 100%;
+	grid-template-columns: 1fr 1fr;
+}
+
+div.cards section:nth-child(odd) img {
+    grid-column: 1;
+}
+
+div.cards section:nth-child(odd) .data {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+
+
 
 
 /*end medium */

@@ -1,0 +1,260 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+html {line-height: 1.15;}
+h1 {
+    font-family: 'Roboto', sans-serif;
+}
+
+h2, h3, li, p {
+    font-family: 'Abel', sans-serif;
+}
+
+p {
+    margin: 0 auto;
+    padding: 5px;
+}
+
+header {
+    background-color: #AFD275;
+    padding: 1rem 2%;
+}
+header h1 {
+    margin: 0;
+    text-shadow: 2px 2px 4px #888;
+    font-size: 28px;
+}
+header h2 {
+    margin: 0;
+    text-shadow: 2px 2px 4px #888;
+    font-size: 17px;
+}
+
+header h1 {padding-top: 10px;}
+
+img.logo {
+    float: left;
+    width: 100px;
+    margin: 0;
+}
+
+
+
+nav button {
+    margin: .2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: #fff;
+}
+
+nav{
+    background-color: #777;
+    font-family: sans-serif;
+
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    display: block;
+    padding: .8rem 2%;
+    text-decoration: none;
+    color: rgba( 255,255,255,0.8);
+    border-top: 1px solid rgba(0,0,0,0.3);
+}
+
+
+nav ul li.active a {background-color: rgba(0,0,0,0.2);}
+    
+nav ul li a:hover {background-color: rgba(0,0,0,0.4);
+}
+
+nav ul.hide {display:none;}
+
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  main {
+    padding: 1rem 2%;
+  }
+
+  .forecasthead {
+      display: none;
+  }
+
+  main img{
+    width: 100%;
+    height: auto;
+  }
+
+  main img {
+      margin: 0;
+      width: 100%;
+  }
+  div#message{
+    background-color: yellow;
+    padding: 1rem;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+  }
+
+  .gallery {
+    padding: 10px;
+  }
+
+  div.showme {display: block;}
+  div.hideme {display: none;}
+  
+  
+  section {
+      background-color: #eee;
+      color: black;
+  }
+
+  section.forecast{display: none}
+  
+  .theParent{
+    position: relative;
+  }
+  .theParent img {width:100%; height:auto;}
+
+  .theChild {
+    
+    background-color: #AFD275;
+    opacity: 0.8;
+    top:10px;
+    left: 10px;
+    padding: 0 2%;
+  }
+  .theChild li {
+    list-style-type: none;
+    margin-left: -35px;
+    padding: 2px;
+  }
+  .history img {
+    max-width: 100%;
+  }
+  .prestonmap {
+      width: 100%;
+      margin-top: -15px;
+  }
+  .us li {
+    list-style-type: none;
+
+  }
+  footer {
+    text-align: center;
+    padding: 1rem 2%;
+    background-color: #AFD275;
+}
+
+fieldset {
+  margin: 2rem 0;
+  border: 1px solid #AFD275;
+  border-radius: 10px;
+  padding: .5rem 2%;
+}
+
+legend {
+  color: black;
+  padding: 0 .5rem;
+}
+
+label.top input, form label.top select {
+  -webkit-appearance: none;
+  display: block;
+  font-size: 1rem;
+  border: solid 1px #999;
+  padding: .75rem;
+  color: #555;
+  width: 100%;
+  max-width: 20rem;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+label{
+  display: block;
+  padding: .75rem;
+  padding-top: 15px;
+  color: black;
+}
+
+input.submitBtn {
+  border: none;
+  background-color: #9c2c13;
+  color: White;
+  border-radius: 1rem;
+  padding: .75rem 1.5rem;
+  margin: 0 0 2rem 2%;
+  width: 96%;
+  max-width: 20rem;
+}
+
+label.top input:required {
+  border-left: red solid 6px;
+}
+
+label.top input:required:valid{
+  border: green solid 6px;
+}
+
+textarea {
+  width: 100%;
+}
+
+.usrform {
+  width: 100%;
+}
+
+div.cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 15px;
+}
+
+div.cards section {
+  background-color: #AFD275;
+  text-align: center;
+  margin: 5px;
+  width: 400px;
+  border-radius: 5px;
+  box-shadow: 2px 2px #bbb;
+}
+
+div.cards section img {
+  width: 86%;
+  box-shadow: 0 0 20px black;
+  margin: 10px;
+  transition: 0.2s;
+  border-radius: 5px;
+}
+.cards ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  padding-bottom: 1rem;
+}
+
+div.cards section img:hover {
+  width: 87%;
+  box-shadow: 0 0 60px rgba(0,0,0,1);
+  margin: 10px;
+  transition: 0.2s;
+}
+
+h2 .cards{text-align:center;}
+

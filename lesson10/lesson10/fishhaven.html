@@ -9,10 +9,10 @@
     <link rel="stylesheet" href="css/small.css">
     <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/large.css">
-    <link rel="shortcut icon" href="favicon.ico"
+    <link rel="shortcut icon" href="favicon.ico">
     
     
-    <title>Community: Fish Haven</title>
+    <title>Community Now: Fish Haven</title>
 </head>
 <body>
     <header class="clearfix">
@@ -27,27 +27,30 @@
             <button onclick="toggleMenu()">&#9776;</button>
             <ul id="primaryNav" class="hide">
                 <li><a href="home.html">Home</a></li>
-                <li></li><a href="preston.html">Preston</a></li>
+                <li><a href="preston.html">Preston</a></li>
                 <li><a href="sodasprings.html">Soda Springs</a></li>
                 <li class="active"><a href="fishhaven.html">Fish Haven</a></li>  
-                <li><a href="#">Storm Center</a></li>
-                <li><a href="#">Gallery</a></li>  
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="stormcenter.html">Storm Center</a></li>
             </ul>
         </div>
     </nav>
     <main>
-        <div id="message">Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.</div>
-        <h1>Fish Haven, Idaho</h1>
-        
-        <h2>Hero image/Weather Summary</h2>
         <section class="theParent">
-            <img src="images/preston.jpg" alt="Preston">
-            <div class="theChild">
-                <p>Current Conditions</p>
+            <picture class= photo>
+                <source media="(max-width: 638px)" srcset="images/wdd230_image_franklinOriginal_520x225.jpg">
+                <source media="(max-width: 768px)" srcset="images/wdd230_image_franklinOriginal_745x361.jpg">
+                
+                <img src="images/wdd230_image_franklinOriginal_1100x534.jpg" alt="Preston">
+            </picture>
+            <div id="current_weather" class="theChild">
+                <p><u>Weather Summary</u></p>
                 <ul>
-                    <li>Sunny</li>
-                    <li>75 degrees</li>
-                    <li>Wind 20mph</li>
+                    <li>Currently: <span id="condition"></span></li>
+                    <li>Temperature: <span id="temp"></span>&deg</li>
+                    <li>Wind Speed: <span id="windSpeed"></span> mph</li>
+                    <li>Humiditiy: <span id="humidity"></span>%</li>
+                    <li id="chill">message</li>
 
                 </ul>
 
@@ -55,48 +58,78 @@
             
         </section>
             
-        <h2>Five Day Forecast</h2>
-        <section class="forecast">
-            <div>
-                <h4>Monday</h4>
-                <img src="images/rainy.png" alt="rain">
-                <p>40&deg;</p>
-            </div>
-            <div>
-                <h4>Tuesday</h4>
-                <img src="images/cloudy.png" alt="cloudy">
-                <p>45&deg;</p>
-            </div>
-            <div>
-                <h4>Wednesday</h4>
-                <img src="images/sun.png" alt="sunny">
-                <p>65&deg;</p>
-            </div>
-            <div>
-                <h4>Thursday</h4>
-                <img src="images/sun.png" alt="sunny">
-                <p>70&deg;</p>
-            </div>
-            <div>
-                <h4>Friday</h4>
-                <img src="images/sun.png" alt="sunny">
-                <p>75&deg;</p>
-            </div>
-    
+        <h2 class="forecasthead">Five Day Forecast</h2>
+        <section id="forecast" class="forecast">
+         </section>
+        <h2>This Day in History</h2>
+
+        <section class="history">
+            <img src="images/history.400x278.jpg" alt="Old Photos">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, 
+            ex eum laboriosam, temporibus vel repudiandae facilis expedita cum 
+            at officiis maiores quae earum itaque, doloremque explicabo ipsa 
+            veritatis autem cupiditate.Lorem ipsum dolor sit amet consectetur 
+            adipisicing elit. Aliquid, ex eum laboriosam, temporibus vel repudiandae 
+            facilis expedita cum at officiis maiores quae earum itaque, 
+            doloremque explicabo ipsa veritatis autem cupiditate.Lorem ipsum 
+            dolor sit amet consectetur adipisicing elit. Aliquid, ex eum 
+            laboriosam, temporibus vel repudiandae facilis expedita cum at 
+            officiis maiores quae earum officiis maiores quae earum itaque, doloremque explicabo ipsa 
+            veritatis autem cupiditate.Lorem ipsum dolor sit amet consectetur 
+            adipisicing elit. Aliquid, ex eum laboriosam, temporibus vel repudiandae 
+            facilis expedita cum at elit. Aliquid, ex eum laboriosam, temporibus vel repudiandae 
+            facilis expedita cum at officiis maiores quae earum itaque, 
+            doloremque explicabo ipsa veritatis autem cupiditate.Lorem ipsum 
+            dolor sit amet consectetur adipisicing elit. Aliquid, ex eum 
+            laboriosam, temporibus vel repudiandae facilis expedita cum at 
+            officiis maiores quae earum officiis maiores quae earum itaque, doloremque explicabo ipsa 
+            veritatis autem cupiditate.Lorem ipsum dolor sit amet consectetur 
+            adipisicing elit. Aliquid, ex eum laboriosam, temporibus vel repudiandae 
+            facilis expedita cumofficiis maiores quae earum itaque, 
+            doloremque explicabo ipsa veritatis autem cupiditate.Lorem ipsum 
+            dolor sit amet consectetur adipisicing elit. Aliquid, ex eum 
+            laboriosam, temporibus vel repudiandae facilis expedita cum at 
+            officiis maiores quae earitaque, doloremque explicabo ipsa 
+            veritatis autem cupiditate.</p>
 
         </section>
-        <section>
-            <h2>Article</h2>
-        </section>
-        <section>
-            <h2>Contact Information</h2>
+        <h2>Contact Us</h2>
+        <section class="us">
+            <ul>
+                <li class="address">Address:
+                    <P>Community Now</P>
+                    <p>123 Main Street</p>
+                    <p>Preston, ID 83263</p>
+                </li>
+                <li class="phone">Phone:
+                    <p>801-555-1234</p>
+                </li>
+                <li class="email">Email:
+                    <p>contact@communitynow.com</p>
+                </li>
+            </ul>
+            <iframe class="prestonmap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d94731.57156707322!2d-111.95036489098494!3d42.09972565493299!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f78c7cda6c31%3A0xf1b3b4fc465a4a3f!2sPreston%2C%20ID%2083263!5e0!3m2!1sen!2sus!4v1634853968063!5m2!1sen!2sus" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
         </section>
     </main>    
     
     <footer>
         <p>&copy;Community Now &bull; Tamara Meisman &bull; <span id="copyrightyear"></span></p>
+        <p>Last Visited: <span id="lastVisitedDays"></span> days ago</p>
+        <p>Credits: https://openweathermap.org</p>
+
     </footer>
     <script src="js/main.js"></script> 
-    
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+        WebFont.load({
+            google: {
+              families: [
+                 'Abel' , 'Roboto'
+              ]
+            }
+          });
+    </script>
+    <script src="js/windchill.js"></script> 
+    <script src="js/5fiveday.js"></script> 
+    <script src="js/currentweather.js"></script>
 </body>
-</html>

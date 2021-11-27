@@ -79,6 +79,10 @@ nav ul li a:hover {background-color: rgba(0,0,0,0.4);
 
 nav ul.hide {display:none;}
 
+.history p {
+  padding: 15px;
+}
+
 
 .clearfix:after {
     content: "";

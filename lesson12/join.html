@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Web site plan for Tamara Meisman in WDD230: Web Frontend Devlopment at BYUI">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="shortcut icon" href="favicon.ico">
+    
+    
+    <title>SA Now: Stormcenter</title>
+</head>
+<body>
+    <header class="clearfix">
+        <div class="navWrapper">
+            <img class="logo" src="images/community_now_logo.png" alt="Community Now Logo">
+            <h1>SA Now</h1>
+            <h2>Turning information into insight</h2>
+        </div>
+    </header>
+    <nav class="clearfix">
+        <div class="navWrapper">
+            <button onclick="toggleMenu()">&#9776;</button>
+            <ul id="primaryNav" class="hide">
+                <li><a href="index.html">Home</a></li>
+                <li ><a href="preston.html">Preston</a></li>
+                <li><a href="sodasprings.html">Soda Springs</a></li>
+                <li><a href="fishhaven.html">Fish Haven</a></li>  
+                <li><a href="gallery.html">Gallery</a></li>
+                <li class="active"><a href="join.html">Join</a></li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <Section>
+            <h1>Join the Chamber of Commerce</h1>
+            <form method="get" action="thanks.html">
+            <fieldset>
+                <legend>Information</legend>
+                <label class="top">Last Name* <input type="text" name="lastname" minlength="3" required></label>
+                <label class="top">First Name* <input type="text" name="firstname" minlength="3" required></label>
+                <label class="top">Title <input type="text" name="title" minlength="2"></label>
+                <label class="top">Phone <input type="tel" name="phone" placeholder="1235551234"></label>
+                <label class="top">Email* <input type="email" name="email" placeholder="someone@gmail.com" required> </label>
+                <label class="top">Business Name* <input type="email" name="businessname" placeholder="business name" required> </label>
+                <label class="top">Business Address <input type="address" name="address" minlength="10" placeholder="street number, city, zipcode"> </label>
+                <label class="top">Business Website <input type="wewbsite" name="website" placeholder="mybusiness.com"> </label>
+
+                <br>
+                <label for="comments">Business Description</label>
+                <label>
+                    <textarea rows="4" cols="50" id="comments"></textarea>
+                </label>
+                
+                
+
+                
+
+                <label>Membership Level</label>
+                <label class="sbs"><input type="radio" name="indanger" value="nonprofit">Non-profit ($100)</label>
+                <label class="sbs"><input type="radio" name="indanger" value="bronze">Bronze ($200)</label>
+                <label class="sbs"><input type="radio" name="indanger" value="silver">Silver ($400)</label>
+                <label class="sbs"><input type="radio" name="indanger" value="gold">Gold ($1000)</label>
+    
+                <div class=perks>
+                    <div id="current_weather" class="theChild perks">
+                        <p><u>Membership Level Perks</u></p>
+                        <ul>
+                            <li>Non-profit: directory listing, business trainings</li>
+                            <li>Bronze: directory listing, business trainings, social media posts</li>
+                            <li>Silver: directory listing, business trainings, social media posts,luncheon tickets</li>
+                            <li>Gold: directory listing, business trainings, social media posts, luncheon tickets, Spurs and Raptor tickets, advertising discounts</li>
+                        </ul>
+        
+                    
+
+            </fieldset>
+            <input type="submit" value="Join the Chamber" class="submitBtn">
+            </form>    
+        </section>
+    </main>    
+    <footer>
+        <p>&copy;Community Now &bull; Tamara Meisman &bull; <span id="copyrightyear"></span></p>
+    </footer>
+    <script src="js/main.js"></script> 
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+        WebFont.load({
+            google: {
+              families: [
+                 'Abel' , 'Roboto'
+              ]
+            }
+          });
+    </script>
+    <script src="js/windchill.js"></script> 
+
+</body>
+
+</html>

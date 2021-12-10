@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Web site plan for Tamara Meisman in WDD230: Web Frontend Devlopment at BYUI">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Abel&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="shortcut icon" href="favicon.ico">
+    
+    
+    <title>SA Now: Contact</title>
+</head>
+<body>
+    <header class="clearfix">
+        <div class="navWrapper">
+            <img class="logo" src="images/community_now_logo.png" alt="SA Now Logo">
+            <h1>SA Now</h1>
+            <h2>San Antonio is always a good idea</h2>
+        </div>
+    </header>
+    <nav class="clearfix">
+        <div class="navWrapper">
+            <button onclick="toggleMenu()">&#9776;</button>
+            <ul id="primaryNav" class="hide">
+                <li><a href="index.html">San Antonio</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="join.html">Join</a></li>   
+                <li class="active"><a href="contact.html">Contact</a></li>  
+
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <h1>Contact Us</h1>
+
+        <section class="us">
+            <ul>
+                <li class="address">Address:
+                    <P>SA Now</P>
+                    <p>3346 Bending Creek</p>
+                    <p>San Antonio, TX, 78261</p>
+                </li>
+                <li class="phone">Phone:
+                    <p>210-222-2468</p>
+                </li>
+                <li class="email">Email:
+                    <p>contact@sanow.us</p>
+                </li>
+            </ul>
+            <div class="mapouter"><div class="gmap_canvas"><iframe width="300" height="300" id="gmap_canvas" src="https://maps.google.com/maps?q=3346%20bending%20creek,%20San%20Antonio,%20TX&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://2piratebay.org">pirate bay</a><br><style>.mapouter{position:relative;text-align:right;height:300px;width:300px;}</style><a href="https://www.embedgooglemap.net"></a><style>.gmap_canvas {overflow:hidden;background:none!important;height:300px;width:300px;}</style></div></div>
+        </section>
+        <h2>We Welcome Your Input</h2>
+
+        <Section>
+            <form method="get" action="thanks.html">
+            <fieldset>
+                <legend>Your Information</legend>
+                <label class="top">Name <input type="text" name="name" minlength="3"></label>
+                <label class="top">Phone <input type="tel" name="phone" placeholder="1235551234"></label>
+                <label class="top">Email <input type="email" name="email" placeholder="someone@gmail.com"> </label>
+                <label class="flexly" for="storm">Rate our website: 1 to 5 &nbsp;&nbsp;&nbsp;
+                    <input type="range" id="storm" value="5" min="1" max="5" step="1" list="tickmarks" oninput="adjustStorm(this.value)" onchange="adjustStorm(this.value)">
+                    <datalist id="tickmarks">
+                        <option value="0">
+                        <option value="1">
+                        <option value="2">
+                        <option value="3">
+                        <option value="4">
+                        <option value="5">
+                        
+                    </datalist>
+                </label>
+                <br>
+                <label for="comments">Comments</label>
+                <label>
+                    <textarea rows="5" cols="100" id="comments"></textarea>
+                </label>
+                
+                
+            </fieldset>
+            <input type="submit" value="Make a Comment" class="submitBtn">
+            </form>    
+        </section>
+        <h2>Board of Directors</h2>
+        <section>
+            <ul>
+                <li>Tamara Meisman - President</li>
+                <li>Mickey Mouse - Vice-president</li>
+                <li>Bill Gates - Secretary</li>
+                <li>Donald Trump - Public Relations</li>
+                <li>Michelle Obama - Human Resources</li>
+                <li>Jeff Bezos - Treasurer</li>
+                <li>Tim Duncan - Dribbler</li>
+                <li>Mark Zuckerberg - Stalker</li>
+                <li>Beyonce Giselle Knowles-Carter - Jiggler</li>
+                <li>Larry Page - AI</li>
+            </ul>
+        </section>
+    </main>    
+    
+    <footer>
+        <p>&copy;SA Now &bull; <span id="copyrightyear"></span></p>
+    </footer>
+    <script src="js/main.js"></script> 
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+        WebFont.load({
+            google: {
+              families: [
+                 'Abel' , 'Roboto'
+              ]
+            }
+          });
+    </script>
+    <script src="js/windchill.js"></script> 
+    <script src="js/getandshowweather.js"></script> 
+    <script src="js/5fivedayfishhaven.js"></script>
+    <script src="js/currentweather.js"></script>
+</body>

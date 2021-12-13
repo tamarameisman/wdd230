@@ -6,11 +6,20 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 
 html {line-height: 1.15;}
 h1 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Abril Fatface', serif;
 }
 
 h2, h3, li, p {
-    font-family: 'Abel', sans-serif;
+    font-family: 'Oxygen', sans-serif;
+}
+h1, h2{
+  color: white;
+  text-shadow: 2px 2px 4px #888;
+
+}
+
+body {
+  background-color:  #7acfd6;
 }
 
 p {
@@ -19,17 +28,19 @@ p {
 }
 
 header {
-    background-color: #AFD275;
+    background-color: white;
     padding: 1rem 2%;
 }
 header h1 {
     margin: 0;
     text-shadow: 2px 2px 4px #888;
+    color: black;
     font-size: 28px;
 }
 header h2 {
     margin: 0;
     text-shadow: 2px 2px 4px #888;
+    color: black;
     font-size: 17px;
 }
 
@@ -52,7 +63,7 @@ nav button {
 }
 
 nav{
-    background-color: #777;
+    background-color:#b11a21;
     font-family: sans-serif;
 
 }
@@ -127,8 +138,11 @@ nav ul.hide {display:none;}
   
   
   section {
-      background-color:rgb(235, 229, 229);
+      background-color:#f1f0ee;
       color: black;
+      padding: 10px;
+      box-shadow: 0 0 20px black;
+
   }
 
   section.forecast{display: none}
@@ -139,8 +153,8 @@ nav ul.hide {display:none;}
   .theParent img {width:100%; height:auto;}
 
   .theChild {
-    
-    background-color: #AFD275;
+    color: white;
+    background-color: #b11a21;
     opacity: 0.8;
     top:10px;
     left: 10px;
@@ -164,13 +178,14 @@ nav ul.hide {display:none;}
   }
   footer {
     text-align: center;
+    color: white;
     padding: 1rem 2%;
-    background-color: #AFD275;
+    background-color:#b11a21;
 }
 
 fieldset {
   margin: 2rem 0;
-  border: 1px solid #AFD275;
+  border: 1px solid #b11a21;
   border-radius: 10px;
   padding: .5rem 2%;
 }
@@ -201,7 +216,7 @@ label{
 
 input.submitBtn {
   border: none;
-  background-color: #9c2c13;
+  background-color: #b11a21;
   color: White;
   border-radius: 1rem;
   padding: .75rem 1.5rem;
@@ -232,9 +247,26 @@ div.cards {
   flex-wrap: wrap;
   padding: 15px;
 }
+.gallery {
+  background-color: white;
+  text-align: center;
+  margin: 5px;
+  width: 400px;
+  border-radius: 5px;
+  box-shadow: 2px 2px #bbb;}
+
+  .gallery {
+    width: 86%;
+    box-shadow: 0 0 20px black;
+    margin: 10px;
+    transition: 0.2s;
+    border-radius: 5px;
+  }
+  
+
 
 div.cards section {
-  background-color: #AFD275;
+  background-color: white;
   text-align: center;
   margin: 5px;
   width: 400px;
@@ -256,12 +288,12 @@ div.cards section img {
   padding-bottom: 1rem;
 }
 
-div.cards section img:hover {
-  width: 87%;
-  box-shadow: 0 0 60px rgba(0,0,0,1);
+div.cards section img {
+  width: 86%;
+  box-shadow: 0 0 20px black;
   margin: 10px;
   transition: 0.2s;
+  border-radius: 5px;
 }
-
 h2 .cards{text-align:center;}
 

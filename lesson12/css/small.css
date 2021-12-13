@@ -177,6 +177,14 @@ nav ul.hide {display:none;}
     list-style-type: none;
 
   }
+
+.ads {
+    column-count: 3;
+    max-width: 100%;
+    font-size: .7rem;
+    text-align: center;
+}
+
   footer {
     text-align: center;
     color: white;
@@ -264,6 +272,9 @@ div.cards {
     border-radius: 5px;
   }
   
+.cards h2  {
+  color: black;
+}
 
 
 div.cards section {

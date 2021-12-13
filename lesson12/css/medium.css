@@ -96,7 +96,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#888888', end
       .forecasthead {
         display: grid;
     }
-
+    
     section.forecast {
       display: grid;
       grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -137,9 +137,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#888888', end
         display: grid;
         grid-template-columns: 50% 50%;
         column-gap: 55px;
-        
-
+    
     }
+    
     
     .address {
         grid-column: 1;
@@ -163,8 +163,59 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#888888', end
 .comments {
     width: 100px;
   }
+  .home-ads h2 {
+      display: none
+  }
+
+  .home-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: min-content 1fr;
+    gap: 0px 20px;
+
+    grid-auto-flow: row;
+    grid-template-areas:
+        "home-purpose home-purpose home-ads "
+        "home-events home-events home-ads "
+        "home-forecast home-forecast home-forecast " 
+        "home-contact home-contact home-contact";
+    }
+    
+    
+    .home-purpose { grid-area: home-purpose; }
+    
+    .home-events { grid-area: home-events;
+     }
+    
+    .home-forecast { grid-area: home-forecast; }
+    
+    .home-ads { grid-area: home-ads; }
+    .home-contact { grid-area: home-contact;}
+.ads {
+    column-count: 1;
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 65px;
+ }
+.ads img{
+    max-width: 65%;
+}
+.ads h3 {
+    font-size: 1.2rem;
+    padding: 3px;
+ }
+.ad:not(:first-child) {
+    border-top: 2px solid #b11a21;
 }
 @media only screen and (min-width: 40rem) and ( max-width: 64rem) {
+
+.cards h2  {
+    font-size: 2rem;
+    }
+
+.cards p,a {
+    font-size: 1.6rem;
+    }
 
 div.cards {
     display: grid;
@@ -187,6 +238,7 @@ div.cards section:nth-child(odd) .data {
     grid-column: 2;
     grid-row: 1;
 }
+
 
 
 

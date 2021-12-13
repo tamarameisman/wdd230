@@ -29,19 +29,19 @@ p {
 
 header {
     background-color: white;
-    padding: 1rem 2%;
+    padding: rem 2%;
 }
 header h1 {
     margin: 0;
     text-shadow: 2px 2px 4px #888;
     color: black;
-    font-size: 28px;
+    font-size: 30px;
 }
 header h2 {
     margin: 0;
     text-shadow: 2px 2px 4px #888;
     color: black;
-    font-size: 17px;
+    font-size: 22px;
 }
 
 header h1 {padding-top: 10px;}
@@ -50,6 +50,7 @@ img.logo {
     float: left;
     width: 100px;
     margin: 0;
+    padding: 10px;
 }
 
 
@@ -297,3 +298,27 @@ div.cards section img {
 }
 h2 .cards{text-align:center;}
 
+.joinbtn {
+  border: none;
+  background-color: #b11a21;
+  color: White;
+  border-radius: 1rem;
+  padding: .75rem 1.5rem;
+  width: 100%;
+}
+
+.perks{
+  background-color: #999999;
+  color: white;
+  top:10px;
+  left: 10px;
+  width: 100%;
+  padding: 0 2%;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  }
+.perks li {
+  list-style-type: none;
+  padding: 10px;
+  margin-left: -48px;
+  }

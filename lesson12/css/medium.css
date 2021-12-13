@@ -103,7 +103,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#888888', end
     }
     section.forecast div {
         text-align: center;
-        border: 1px solid #fff;
+        border: 1px solid #aaa;
+        background-color: white;
     }
     .forecast h4 {
         background-color: #aaa;
@@ -112,7 +113,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#888888', end
     }
 
     section .forecast div h4{
-        background-color: #eee;
+        background-color: whitesmoke;
         margin: 0;
         padding: 1rem 0;
     }

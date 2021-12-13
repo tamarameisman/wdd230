@@ -298,13 +298,17 @@ div.cards section img {
 }
 h2 .cards{text-align:center;}
 
-.joinbtn {
-  border: none;
+.joinbtn{
+  appearance: button;
+  text-decoration: none;
   background-color: #b11a21;
-  color: White;
+  color: white;
+  padding: 2px 6px 2px 6px;
+  border: none;
   border-radius: 1rem;
   padding: .75rem 1.5rem;
-  width: 100%;
+  min-width: 100%;
+  text-align: center;
 }
 
 .perks{
@@ -322,3 +326,7 @@ h2 .cards{text-align:center;}
   padding: 10px;
   margin-left: -48px;
   }
+
+.mapouter {
+  padding-left: 25px;
+}

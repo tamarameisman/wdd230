@@ -1,0 +1,112 @@
+[{
+    "name": "HEB Grocery Stores",
+    "motto": "Here everything's better",
+    "logo": "images/heb.png",
+    "website": "heb.com",
+    "address": {
+        "streetAddress": "368 Valley HI Drive",
+        "city": "San Antonio",
+        "state": "TX",
+        "postalCode": "78227"
+    },
+    "phone": [
+        { "type": "business", "number": "(800)432-3113" }
+    ]
+},
+{
+    "name": "USAA Financial Services",
+    "motto": "What you're made of, we're made for",
+    "logo": "images/usaa.png",
+    "website": "usaa.com",
+    "address": {
+        "streetAddress": "9800 Fredericksburg Road",
+        "city": "San Antonio",
+        "state": "TX",
+        "postalCode": "78288"
+    },
+    "phone": [
+        { "type": "business", "number": "(800)531-8722" }
+    ]
+},
+
+{
+    "name": "Whataburger Restaurant",
+    "motto": "We build a Bigger, better burger",
+    "logo": "images/whataburger.png",
+    "website": "whataburger.com",
+    "address": {
+        "streetAddress": "3130 Broadway Street",
+        "city": "San Antonio",
+        "state": "TX",
+        "postalCode": "78209"
+    },
+    "phone": [
+        { "type": "business", "number": "(800)628-7437" }
+    ]
+},
+
+{
+    "name": "Bill Miller Bar-B-Q",
+    "motto": "Mind ya biscuits, and life will be gravy",
+    "logo": "images/billmillerbbq.png",
+    "website": "billmillerbbq.com",
+    "address": {
+        "streetAddress": "2750 Bill Miller Lane",
+        "city": "San Antonio",
+        "state": "TX",
+        "postalCode": "78288"
+    },
+    "phone": [
+        { "type": "business", "number": "(210)533-5143" }
+    ]
+},
+
+{
+    "name": "CPS Energy",
+    "motto": "Make your home a safe haven",
+    "logo": "images/cpsenergy.png",
+    "website": "cpsenergy.com",
+    "address": {
+        "streetAddress": "",
+        "city": "San Antonio",
+        "state": "TX",
+        "postalCode": ""
+    },
+    "phone": [
+        { "type": "business", "number": "(800)773-3077" }
+    ]
+},
+
+{
+    "name": "SOS Security",
+    "motto": "Our concern is your security",
+    "logo": "images/sossecurity.png",
+    "website": "sos-security.com",
+    "address": {
+        "streetAddress": "1100 Northwest Loop 410 Suite 700",
+        "city": "San Antonio",
+        "state": "TX",
+        "postalCode": ""
+    },
+    "phone": [
+        { "type": "business", "number": "(210)979-9070" }
+    ]
+},
+
+{
+    "name": "Touchstone Communities",
+    "motto": "What You're Made Of, We're Made For",
+    "logo": "images/touchstonecommunities.png",
+    "website": "touchstone-communities.com",
+    "address": {
+        "streetAddress": "250 W Nottingham Dr",
+        "city": "San Antonio",
+        "state": "TX",
+        "postalCode": "78209"
+    },
+    "phone": [
+        { "type": "business", "number": "(210)828-5686" }
+    ]
+}
+
+]

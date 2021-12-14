@@ -213,6 +213,17 @@
         border-top: 2px solid #b11a21;
     }
     
+   section.history {
+        max-width: 50rem;
+        margin: auto;
+        
+    }
+    img.ethnic {
+        margin-top: -15px;
+    }
+}
+
+@media only screen and (min-width: 50rem) and (max-width: 64rem) {
     .cards h2  {
         font-size: 2rem;
     }
@@ -243,16 +254,6 @@
         grid-row: 1;
     }
     
-    section.history {
-        max-width: 50rem;
-        margin: auto;
-        
-    }
-    img.ethnic {
-        margin-top: -15px;
-    }
-}
-
-
+ }
 
 /*end medium */

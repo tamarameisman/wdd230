@@ -352,7 +352,17 @@ h2 .cards{text-align:center;}
 
 .mapouter {
   padding-left: 25px;
+  position:relative;
+  text-align:right;
+  width:300px;
 }
+.mapframe{
+  width: 300;
+}
+.gmap_canvas {
+  overflow:hidden;
+  background:none!important;
+  width:300px;}
 
 .social {
   white-space: nowrap;
@@ -360,4 +370,6 @@ h2 .cards{text-align:center;}
   max-width: 50px;
   margin-top: 15px;
 }
+
+/* Set a specific color for each brand */
 

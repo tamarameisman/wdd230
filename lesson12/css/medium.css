@@ -122,13 +122,19 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#888888', end
     .history p {
         text-align: justify;
         flex-wrap: wrap;
+        padding: 5px;
     }
     .history img {
-        float:right;
+        float:left;
         margin: 5px;
         max-width: 400px;
-        padding: 7px;
+        padding: 20px;
+        border-radius: 5px;
     }
+    .ethnic img {
+        float: right;
+    }
+    
     .us {
         display: grid;
         grid-template-columns: 50% 50%;

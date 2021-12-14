@@ -133,6 +133,11 @@ nav ul.hide {display:none;}
   .gallery {
     padding: 10px;
   }
+h2.sat {
+  background-color: #b11a21;
+  padding: 10px;
+  border-radius: 5px;
+}
 
   div.showme {display: block;}
   div.hideme {display: none;}
@@ -168,6 +173,11 @@ nav ul.hide {display:none;}
   }
   .history img {
     max-width: 100%;
+    background-color:#999999;
+    box-shadow: 2px 2px #bbb;
+    border-radius: 3px;
+    padding: 10px;
+    
   }
   .prestonmap {
       width: 100%;
@@ -257,33 +267,35 @@ div.cards {
   padding: 15px;
 }
 .gallery {
-  background-color: white;
+  background-color:#999999;
   text-align: center;
   margin: 5px;
   width: 400px;
   border-radius: 5px;
   box-shadow: 2px 2px #bbb;}
 
-  .gallery {
-    width: 86%;
-    box-shadow: 0 0 20px black;
-    margin: 10px;
-    transition: 0.2s;
-    border-radius: 5px;
-  }
+.gallery {
+  width: 86%;
+  box-shadow: 0 0 20px black;
+  margin: 10px;
+  transition: 0.2s;
+  border-radius: 5px;
+}
   
 .cards h2  {
   color: black;
 }
 
+footer a {
+  color: white;
+  font-size: 1rem;
+}
 
 div.cards section {
-  background-color: white;
   text-align: center;
   margin: 5px;
   width: 400px;
   border-radius: 5px;
-  box-shadow: 2px 2px #bbb;
 }
 
 div.cards section img {
@@ -300,12 +312,11 @@ div.cards section img {
   padding-bottom: 1rem;
 }
 
-div.cards section img {
-  width: 86%;
-  box-shadow: 0 0 20px black;
-  margin: 10px;
-  transition: 0.2s;
-  border-radius: 5px;
+.icon img  button{
+  max-width: 32px;
+  border: none;
+  padding: 4px;
+}
 }
 h2 .cards{text-align:center;}
 

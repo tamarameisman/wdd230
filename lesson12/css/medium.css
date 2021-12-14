@@ -1,15 +1,15 @@
 /* 35em is also 560px when basefont is 16px */
-@media only screen and (min-width: 40rem) {
+@media only screen and (min-width: 50rem) {
     nav {
-/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#888888+0,4c4c4c+100 */
-background:#b11a21; /* Old browsers */
-background: -moz-linear-gradient(top,  #b11a21 0%, #880303 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top,  #b11a21 0%#880303 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom,  #b11a21 0%,#880303 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#888888', endColorstr='#4c4c4c',GradientType=0 ); /* IE6-9 */
-
+        /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#888888+0,4c4c4c+100 */
+        background:#b11a21; /* Old browsers */
+        background: -moz-linear-gradient(top,  #b11a21 0%, #880303 100%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(top,  #b11a21 0%#880303 100%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to bottom,  #b11a21 0%,#880303 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#888888', endColorstr='#4c4c4c',GradientType=0 ); /* IE6-9 */
+        
     }
-
+    
     header h1 {
         font-size: 40px;
     }
@@ -36,49 +36,49 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#888888', end
         border-right: 1px solid rgba(0,0,0,0.03);
         padding: .8rem 1rem;
     }
-
+    
     .weather {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-gap: 10px;
     }
-
+    
     .one {
         grid-column: 1;
     }
     .two {
         grid-column: 1;
-       
+        
     }
     .three {
         grid-column: 1;
-       
+        
     }
     .four {
         grid-column: 1;
-       
+        
     }
     .five {
         grid-column: 2;
-       
+        
     }
     .six {
         grid-column: 2;
-       
+        
     }
     .seven {
         grid-column: 2;
-       
+        
     }
     .eight {
         grid-column: 2;
-       
+        
     }
     .nine {
         grid-column: 2;
-       
+        
     }
-
+    
     .theChild {
         position: absolute;
         background-color: #b11a21;
@@ -86,20 +86,20 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#888888', end
         top:10px;
         left: 10px;
         padding: 0 2%;
-      }
-      .theChild li {
+    }
+    .theChild li {
         list-style-type: none;
         margin-left: -35px;
         padding: 2px;
-      }
-
-      .forecasthead {
+    }
+    
+    .forecasthead {
         display: grid;
     }
     
     section.forecast {
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     }
     section.forecast div {
         text-align: center;
@@ -111,13 +111,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#888888', end
         padding: 1.5rem;
         margin-top: -1px;
     }
-
+    
     section .forecast div h4{
         background-color: whitesmoke;
         margin: 0;
         padding: 1rem 0;
     }
-
+    
     
     .history p {
         text-align: justify;
@@ -143,14 +143,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#888888', end
         display: grid;
         grid-template-columns: 50% 50%;
         column-gap: 55px;
-    
+        
     }
     
     
     .address {
         grid-column: 1;
         margin-left: -35px;
-
+        
     }
     .phone, .email {
         grid-column: 2;
@@ -164,23 +164,22 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#888888', end
     .prestonmap {
         grid-column: 2;
         padding: 30px;
+    }
+    .comments {
+        width: 100px;
+    }
+    .home-ads h2 {
+        display: none
+    }
+    
+    .home-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: min-content 1fr;
+        gap: 0px 20px;
         
-} 
-.comments {
-    width: 100px;
-  }
-  .home-ads h2 {
-      display: none
-  }
-
-  .home-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: min-content 1fr;
-    gap: 0px 20px;
-
-    grid-auto-flow: row;
-    grid-template-areas:
+        grid-auto-flow: row;
+        grid-template-areas:
         "home-purpose home-purpose home-ads "
         "home-events home-events home-ads "
         "home-forecast home-forecast home-forecast " 
@@ -191,62 +190,69 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#888888', end
     .home-purpose { grid-area: home-purpose; }
     
     .home-events { grid-area: home-events;
-     }
+    }
     
     .home-forecast { grid-area: home-forecast; }
     
     .home-ads { grid-area: home-ads; }
     .home-contact { grid-area: home-contact;}
-.ads {
-    column-count: 1;
-    font-size: 1rem;
-    text-align: center;
-    margin-top: 65px;
- }
-.ads img{
-    max-width: 65%;
-}
-.ads h3 {
-    font-size: 1.2rem;
-    padding: 3px;
- }
-.ad:not(:first-child) {
-    border-top: 2px solid #b11a21;
-}
-@media only screen and (min-width: 40rem) and ( max-width: 64rem) {
-
-.cards h2  {
-    font-size: 2rem;
+    .ads {
+        column-count: 1;
+        font-size: 1rem;
+        text-align: center;
+        margin-top: 65px;
     }
-
-.cards p,a {
-    font-size: 1.6rem;
+    .ads img{
+        max-width: 65%;
     }
-
-div.cards {
-    display: grid;
-    width: 100%;
-	grid-template-columns: 1fr;
+    .ads h3 {
+        font-size: 1.2rem;
+        padding: 3px;
+    }
+    .ad:not(:first-child) {
+        border-top: 2px solid #b11a21;
+    }
+    
+    .cards h2  {
+        font-size: 2rem;
+    }
+    
+    .cards p,a {
+        font-size: 1.6rem;
+    }
+    
+    div.cards {
+        display: grid;
+        width: 100%;
+        grid-template-columns: 1fr;
+    }
+    
+    div.cards section {
+        width: 100%;
+        display: grid;
+        width: 100%;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    div.cards section:nth-child(odd) img {
+        grid-column: 1;
+    }
+    
+    div.cards section:nth-child(odd) .data {
+        grid-column: 2;
+        grid-row: 1;
+    }
+    
+    section.history {
+        max-width: 50rem;
+        margin: auto;
+        
+    }
+    img.ethnic {
+        margin-top: -15px;
+    }
 }
-
-div.cards section {
-    width: 100%;
-    display: grid;
-    width: 100%;
-	grid-template-columns: 1fr 1fr;
-}
-
-div.cards section:nth-child(odd) img {
-    grid-column: 1;
-}
-
-div.cards section:nth-child(odd) .data {
-    grid-column: 2;
-    grid-row: 1;
-}
-
 
 
 
 /*end medium */
-}
